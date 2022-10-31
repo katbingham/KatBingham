@@ -1,0 +1,28 @@
+body {
+    background-image: url('images/IMG_8432.jpg');
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rosybrown;
+}
+
+p {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 16px;
+    float: right;
+    width: 860px;
+    margin-right: 45px;
+    text-align: right;
+    display: inline-block;
+}
+
+a:hover {
+    color: peru;
+    font-size: 45px;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
