@@ -1,14 +1,20 @@
+html {
+    margin: 0px;
+    height: 100%;
+ }
+
 body {
     background-image: url('images/IMG_8432.jpg');
-    min-width: 100%;
-    min-height: 100%;
+    margin: 0;
+    height: 100%;
     background-color: rosybrown;
+    color: #121621;
 }
 
 p {
     text-decoration: none;
-    color: floralwhite;
-    font-size: 16px;
+    color: #121621;
+    font-size: 20px;
     float: right;
     width: 860px;
     margin-right: 45px;
@@ -16,9 +22,13 @@ p {
     display: inline-block;
 }
 
+a {
+    display: inline-block;
+}
+
 a:hover {
     color: peru;
-    font-size: 45px;
+    transform:scale(1.2);
 }
 
 .right {
