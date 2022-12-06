@@ -23,11 +23,13 @@ p {
 }
 
 a {
+    color: #121621;
+    text-decoration: none;
     display: inline-block;
 }
 
 a:hover {
-    color: peru;
+    color: #cd853f;
     transform:scale(1.2);
 }
 

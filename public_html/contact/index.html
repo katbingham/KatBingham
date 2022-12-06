@@ -1,11 +1,22 @@
-<html>
+<!DOCTYPE html>
+	<html lang="en">
 		<head>
 				<title>// kat.Contact();</title>
 				<link rel="stylesheet" type="text/css" href="../css/style.css">
 		</head>
 		<body>
-<h1>Reach Out!</h1>
-<p>Email Set Up Through Page</p>
+			<h1>Reach Out!</h1>
+			<form action="https://formsubmit.co/kathryn.bingham.code@email.com" method="POST">
+				<input type="email" name="email" placeholder="Email Address" required>
+				<input type="hidden" name="_next" value="https://katbingham.com/contact/thank-you.html">
+				<input type="text" name="name" placeholder="Name" required>
+				<input type="text" name="message" placeholder="Type your message here" required>
+				<input type="hidden" name="_subject" value="New submission!">
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_autoresponse" value="Thank you for your email. It will be reviewed shortly">
+				<button type="submit">Send</button>
+				
+		   </form>
 
-</body>
-</html>
+		</body>
+	</html>
