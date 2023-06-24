@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import App from "./katbingham.js";
 import "./styles.scss";
@@ -8,7 +8,7 @@ import "./styles.scss";
 const appRouting = (
     <Router>
         <Switch>
-            <Route exact path="/" component={App} />
+            <Route exact path='/' element={<App/>} />
         </Switch>
     </Router>
 );

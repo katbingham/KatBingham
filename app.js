@@ -4,7 +4,7 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    HTMLFormControlsCollection.log(`The app server is running on por: ${port}`);
+    //HTMLFormControlsCollection.log(`The app server is running on port: ${port}`);
 });
 
 const DIST_DIR = path.join(__dirname, "dist");
