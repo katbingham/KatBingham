@@ -1,0 +1,21 @@
+a {
+    color: #121621;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: #cd853f;
+    transform:scale(1.2);
+}
+
+.wrapper {
+    place-items: center;
+    background-color: rosybrown;
+    padding: 20px;
+    border-radius: 10px;
+    color: #121621;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
