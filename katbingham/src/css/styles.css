@@ -12,7 +12,7 @@ body {
 
 .nav {
     margin: 0;
-    background-color: rgba(161, 114, 114, 0.7);
+    background-color: rgba(161, 114, 114, 0.65);
     color: #121621;
     display: flex;
     justify-content: space-between;
@@ -46,18 +46,61 @@ body {
 }
 
 .nav li.active {
-    background-color: rgb(168, 103, 103, 0.7);
-    background-color:
+    background-color: rgb(168, 103, 103, 0.65);
 }
 
 .nav li:hover {
-    background-color: rgba(205, 133, 63, 0.7);
+    background-color: rgba(205, 133, 63, 0.65);
 }
 
 .footer {
     margin: 0;
-    background-color: rgba(161, 114, 114, 0.7);
+    background-color: rgba(161, 114, 114, 0.5);
     color: #121621;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+}
+.social-links-parent {
+    height: auto;
+    width: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.social-links {
+    gap: 1rem;
+    justify-items: center;
+    padding: .25rem;
+    text-align: center;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.github {
+    float: left;
+    gap: 1rem;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.linkedin {
+    float: left;
+    gap: 1rem;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.instagram {
+    float: left;
+    gap: 1rem;
+    justify-items: center;
+    padding: .25rem;
+}
+
+.footer-text {
+    padding-bottom: 1.5rem;
 }

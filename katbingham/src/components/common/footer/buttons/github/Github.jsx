@@ -6,7 +6,7 @@ export default function Github() {
     const [over, setOver] = useState(false);
     return (
         <>
-        <div 
+        <div className="github"
             onMouseOver={() => setOver(true)}
             onMouseOut={() => setOver(false)}>
                 <img

@@ -6,7 +6,7 @@ export default function Linkedin() {
     const [over, setOver] = useState(false);
     return (
         <>
-        <div 
+        <div className="linkedin"
             onMouseOver={() => setOver(true)}
             onMouseOut={() => setOver(false)}>
                 <img

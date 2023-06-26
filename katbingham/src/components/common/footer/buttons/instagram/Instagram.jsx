@@ -6,7 +6,7 @@ export default function Instagram() {
     const [over, setOver] = useState(false);
     return (
         <>
-        <div 
+        <div className="instagram"
             onMouseOver={() => setOver(true)}
             onMouseOut={() => setOver(false)}>
                 <img

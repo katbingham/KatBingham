@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./Navbar.css";
 import About from "../../../pages/About";
 import Resume from "../../../pages/Resume";
 import Contact from "../../../pages/Contact";
