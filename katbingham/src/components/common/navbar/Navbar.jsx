@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Navbar.css";
-import Welcome from "../../../pages/Welcome";
+import About from "../../../pages/About";
 import Resume from "../../../pages/Resume";
 import Contact from "../../../pages/Contact";
 
@@ -9,9 +9,9 @@ export default function Navbar() {
     return (
         <>
         <nav className="nav">
-            <a href="/" className="site-title">Kat Bingham</a>
+            <a href="/Home" className="site-title">Kat Bingham</a>
             <ul>
-                <li>
+                <li className="active"> 
                 <a href="/About" className="navbar-about">About</a>
                 </li> 
                 <li>

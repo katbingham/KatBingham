@@ -1,17 +1,9 @@
-import Header from "../components/common/header/Header"
-import Footer from "../components/common/footer/Footer"
-import "../css/main.css"
+import React from "react";
 
 export default function Resume() {
     return (
         <>
-        <div className="wrapper">
-        <Header/>
-        <h1></h1>
-        <p>
-        </p>   
-        <Footer/>
-        </div>
+        <h1>Resume</h1>
         </>
-    );
+    )
 }

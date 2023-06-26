@@ -1,14 +1,3 @@
-a {
-    color: #121621;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    color: #cd853f;
-    transform:scale(1.2);
-}
-
 .wrapper {
     place-items: center;
     background-color: rosybrown;
